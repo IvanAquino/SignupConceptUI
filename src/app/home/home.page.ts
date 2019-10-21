@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  signupView: boolean = false
+
   constructor() {}
+
+  toggleSignUpView () {
+    this.signupView = !this.signupView
+  }
 
 }
